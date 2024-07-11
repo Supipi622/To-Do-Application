@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9; /* Light background color for the whole page */
+  }
+  
+  .task-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #6a7574; /* Greenish-blue background color */
+    height: 100vh; /* Full height of the viewport */
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    border-radius: 10px; /* Rounded corners */
+  }
+  
+  .task-details-container h1 {
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  .task-details-container div {
+    background: #76c7c0; /* White background for detail sections */
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px; /* Limit the width */
+    text-align: left;
+  }
+  
+  .task-details-container strong {
+    color: #333333; /* Darker text color for labels */
+  }
+  
+  .task-details-container button {
+    background-color: #4caf50; /* Green button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Smooth transition */
+    margin-top: 20px;
+  }
+  
+  .task-details-container button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  

@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9; /* Light background color for the whole page */
+  }
+  
+  .edit-task-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #7a7a7a; /* Greenish-blue background color */
+    height: 100vh; /* Full height of the viewport */
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    border-radius: 10px; /* Rounded corners */
+  }
+  
+  .edit-task-container h1 {
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  .edit-task-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px; /* Limit the width of the form */
+    background: #ffffff; /* White background for the form */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .edit-task-container div {
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  .edit-task-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333333;
+  }
+  
+  .edit-task-container input[type="text"],
+  .edit-task-container input[type="date"],
+  .edit-task-container textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensures padding is included in the width */
+  }
+  
+  .edit-task-container textarea {
+    resize: vertical; /* Allows vertical resizing only */
+  }
+  
+  .edit-task-container input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .edit-task-container button {
+    background-color: #4caf50; /* Green button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  .edit-task-container button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
